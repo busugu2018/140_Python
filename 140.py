@@ -150,6 +150,9 @@ print(date.strftime("%A"))  # prints the day of the week
 
 
 
+
+
+
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
@@ -165,7 +168,50 @@ print("var1 = "+ str(var1))
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
-# 11 - Write a Python Program to Check if a Nurr is Positive. Negative or Zero
+# 11 - Write a Python Program to Check if a Num is Positive. Negative or Zero
+
+C = int(input ("enter a number: "))
+if C > 0:
+    print("C is positive.")
+elif C < 0:
+    print("C is negative.")
+else:
+    print("C is equal to zero..")
+
+
+
+
+
+
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#12 - Write a Python Program to Check if a Number is Odd or Even
+
+C = int(input ("enter a number: "))
+if C%2 == 0:
+    print("C is even")
+else:
+    print("C is odd")
+
+
+
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#13 - Write a Python Program to Check Leap Year.
+
+year = int(input("Enter  year: "))
+if year%400 == 0 and year%100 == 0:
+    print(str(year) + " is a leap year.")
+elif year%4 == 0 and year%100 != 0:
+    print(str(year) + " is a leap year.")
+else:
+    print(str(year) + " is a NOT a leap year.")
+
+
+
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#14 - Write a Python Program to Check Prime Number.
 
 
 
@@ -175,23 +221,10 @@ print("var1 = "+ str(var1))
 
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-#12
+#15 - Write a Python Program to Print all Prime Numbers in an Interval of 1.10
 
 
 
-
-#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-#13
-
-
-
-
-
-
-#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-#14
 
 
 
@@ -201,5 +234,48 @@ print("var1 = "+ str(var1))
 
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-#15
+
+# 16 - Write a Pvthon Program to Find the Factorial of a Number.
+
+
+
+
+
+
+
+
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# 17 - Write a Puthon Program to Displav the multiplication Table
+
+
+
+
+
+
+
+
+
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# 18 - Write a Python Program to Print the Fibonacci sequence 
+
+
+
+
+
+
+
+
+
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# 19 - Write a Python Program to Check Armstrong Number?
+
+
+
+
+
+
+
 
